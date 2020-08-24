@@ -44,12 +44,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/simpleapp-release/</url>
+            <url>https://nexus.btprod.openshift.inv.adroot.lgim.com/content/repositories/client-services-releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/simpleapp/</url>
+            <url>https://nexus.btprod.openshift.inv.adroot.lgim.com/content/repositories/client-services-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
